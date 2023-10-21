@@ -1,20 +1,20 @@
-def load_version(path: str) -> str:
-    with open(path, 'r') as f:
-        return f.readline().strip()
-
+VERSION_FILE: str = 'VERSION'
+LICENSE_FILE: str = 'LICENSE'
 
 NAME: str = 'somni-log'
 DESCRIPTION: str = 'A minimal Logger-setup for Python'
 LONG_DESCRIPTION: str = None
-VERSION: str = load_version('VERSION')
+LICENSE: str = 'MIT'
 
+HOMEPAGE: str = None
+PROJECT_URLS: dict = None  # {'Documentation': 'https://}
 AUTHOR: str = 'Samu Rabin'
 AUTHOR_EMAIL: str = 'samus_codes@samusoft.net'
 MAINTAINER: str = 'Samu Rabin'
 MAINTAINER_EMAIL: str = 'samus_codes@samusoft.net'
 
 LONG_DESCRIPTION_CONTENT_TYPE: str = 'text/markdown'
-INSTALL_REQUIRES: list[str] = []
+INSTALL_REQUIRES: list[str] = None
 KEYWORDS: list[str] = ['logging', 'logger', 'minimal']
 CLASSIFIERS: list[str] = [
     'Development Status :: 4 - Beta',
