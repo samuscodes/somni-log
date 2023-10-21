@@ -1,2 +1,6 @@
-- [ ] TODO: set up Makefile (build, publish)
-- [ ] TODO: add Attribution for Icon
+- TODO: add Attribution for Icon
+- TODO: resolve Todos in Code
+- TODO: write Unittests
+- TODO: write README.md
+- TODO: publish Package to GitHub
+- TODO: write Documentation
